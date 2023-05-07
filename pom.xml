@@ -31,7 +31,7 @@
                 <version>4.44.0</version>
                 <configuration>
                     <activeRecipes>
-                        <recipe>org.openrewrite.java.AddApache2LicenseHeader</recipe>
+                        <recipe>dev.hashnode.kuldeepsidhu.AddLicenseHeader</recipe>
                     </activeRecipes>
                 </configuration>
             </plugin>
