@@ -32,8 +32,16 @@
                 <configuration>
                     <activeRecipes>
                         <recipe>dev.hashnode.kuldeepsidhu.AddLicenseHeader</recipe>
+                        <recipe>org.openrewrite.java.testing.junit5.JUnit4to5Migration</recipe>
                     </activeRecipes>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.openrewrite.recipe</groupId>
+                        <artifactId>rewrite-testing-frameworks</artifactId>
+                        <version>1.37.0</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
