@@ -29,6 +29,11 @@
                 <groupId>org.openrewrite.maven</groupId>
                 <artifactId>rewrite-maven-plugin</artifactId>
                 <version>4.44.0</version>
+                <configuration>
+                    <activeRecipes>
+                        <recipe>org.openrewrite.java.AddApache2LicenseHeader</recipe>
+                    </activeRecipes>
+                </configuration>
             </plugin>
         </plugins>
     </build>
