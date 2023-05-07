@@ -32,6 +32,7 @@
                     <activeRecipes>
                         <recipe>dev.hashnode.kuldeepsidhu.AddLicenseHeader</recipe>
                         <recipe>org.openrewrite.java.testing.junit5.JUnit4to5Migration</recipe>
+                        <recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
                     </activeRecipes>
                 </configuration>
                 <dependencies>
